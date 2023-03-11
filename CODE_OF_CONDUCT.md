@@ -29,3 +29,8 @@ To ensure that everyone can participate fully and equally, we have established t
 Code of conduct agreement: All group members must read, agree, and sign this code of conduct. By signing this agreement, we commit to upholding these guidelines and working together in a professional and respectful manner.
 
 We believe that by following these guidelines, we can create a positive and productive environment where everyone feels valued and supported. If you have any questions or concerns.
+
+
+Signatures: 
+
+[Abraham Kaunda], [March 11, 2023]
