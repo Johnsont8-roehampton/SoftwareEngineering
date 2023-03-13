@@ -33,4 +33,4 @@ We believe that by following these guidelines, we can create a positive and prod
 
 Signatures: 
 
-[Abraham Kaunda], [Frankie Geeves] [March 11, 2023]
+[Abraham Kaunda], [Frankie Geeves], [Iliass Errafi] [March 11, 2023]
