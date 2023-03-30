@@ -1,23 +1,20 @@
-# Use the latest version of Node.js as of February 10th, 2023
-FROM node:18.14.0
+# Use an official Node.js runtime as a parent image
+FROM node:12-alpine
 
-# Set the environment to development
-ENV NODE_ENV=development
-
-# Set the working directory inside the container
+# Set the working directory to /app
 WORKDIR /app
 
 # Copy package.json and package-lock.json to the container
 COPY package*.json ./
 
-# Install dependencies
+# Install any necessary dependencies
 RUN npm install
 
-#server.js
-COPY server.js .
+# Copy the rest of the application to the container
+COPY . .
 
-# Expose port 8000
-EXPOSE 8000
+# Expose port 3000 to the outside world
+EXPOSE 3000
 
-# Start the server
-CMD ["node", "server.js"]
+# Define a command to start the application
+CMD [ "node", "server.js" ]
