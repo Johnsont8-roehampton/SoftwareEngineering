@@ -91,7 +91,7 @@ INSERT INTO `city` VALUES (37,'Constantine','DZA','Constantine',443727);
 INSERT INTO `city` VALUES (38,'Annaba','DZA','Annaba',222518);
 INSERT INTO `city` VALUES (39,'Batna','DZA','Batna',183377);
 INSERT INTO `city` VALUES (40,'Sétif','DZA','Sétif',179055);
-INSERT INTO `city` VALUES (41,'Sidi Bel Abbès','DZA','Sidi Bel Abbès',153106);
+INSERT INTO `city` VALUES (41,'Sidi Bel  Abbès','DZA','Sidi Bel Abbès',153106);
 INSERT INTO `city` VALUES (42,'Skikda','DZA','Skikda',128747);
 INSERT INTO `city` VALUES (43,'Biskra','DZA','Biskra',128281);
 INSERT INTO `city` VALUES (44,'Blida (el-Boulaida)','DZA','Blida',127284);
