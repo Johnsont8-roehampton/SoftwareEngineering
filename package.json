@@ -1,23 +1,21 @@
 {
-  "name": "softwareengineering",
+  "name": "src",
   "version": "1.0.0",
-  "description": "The project is a system designed to provide easy access to population information for an organization. The system is developed using Node.js and utilizes an SQL database that has been provided by the organization. The goal of the project is to provide users with the ability to generate reports on various population statistics, such as population by region, country, or city. Additionally, the project includes user authentication and management features to control access to the system. The project is developed with a user-friendly and visually appealing interface to ensure ease of use for all users.",
+  "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon -e js index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Johnsont8-roehampton/SoftwareEngineering.git"
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql2": "^3.2.0",
+    "pug": "^3.0.2"
   },
-  "keywords": [
-    "population project"
-  ],
-  "author": "Abraham",
-  "license": "Apache-2.0",
-  "bugs": {
-    "url": "https://github.com/Johnsont8-roehampton/SoftwareEngineering/issues"
-  },
-  "homepage": "https://github.com/Johnsont8-roehampton/SoftwareEngineering#readme"
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
 }
-
