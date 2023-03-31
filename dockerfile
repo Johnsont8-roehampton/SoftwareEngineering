@@ -15,4 +15,4 @@ RUN npm install
 EXPOSE 3000
 
 #this is the code that  Start server using npm script i will also iclude dev options
-CMD [ "npm", "run", "start" ]
+CMD [ "npm", "run", "start" ] 
