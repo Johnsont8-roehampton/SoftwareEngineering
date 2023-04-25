@@ -1,4 +1,38 @@
-extends layout.pug
-
-block content
-  h2 Hello world!
+doctype html
+html(lang="en")
+  head
+    title My Population Website
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    link(rel="stylesheet", href="styles.css")
+  body
+    header
+      h1 My Population Website
+    nav
+      ul
+        li
+          a(href="/home") My Population Website
+        li
+          a(href="/city") City
+        li
+          a(href="/about") About
+    main
+      h2 Welcome to My Population Website
+      form(action="/submit", method="post")
+        label(for="data") Data:
+        textarea(id="data", name="data")
+        button(type="submit") Submit
+        // add a script to handle form submission and database interaction
+    script.
+      const form = document.querySelector('form');
+      form.addEventListener('submit', (event) => {
+        event.preventDefault(); 
+        const data = new FormData(form); 
+        fetch('/submit-form', {
+          method: 'POST',
+          body: data
+        }).then(response => {
+          
+        });
+      });
+    footer
+      p Copyright © My Population Website 2023
